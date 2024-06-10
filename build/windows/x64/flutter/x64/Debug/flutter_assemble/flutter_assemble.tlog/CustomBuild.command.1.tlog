@@ -1,0 +1,28 @@
+^C:\USERS\CEO-FOUNER-HTS\DESKTOP\FLUTTER GAME FOR STUDENT\APP\BUILD\WINDOWS\X64\CMAKEFILES\DD5F006BCCD2F6B89D5047F412EF221A\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\CEO-FOUNER-HTS\Desktop\Flutter Game for Student\app" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\CEO-FOUNER-HTS\Desktop\Flutter Game for Student\app\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\CEO-FOUNER-HTS\Desktop\Flutter Game for Student\app" "FLUTTER_TARGET=C:\Users\CEO-FOUNER-HTS\Desktop\Flutter Game for Student\app\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQ0FOVkFTS0lUX1VSTD1odHRwczovL3d3dy5nc3RhdGljLmNvbS9mbHV0dGVyLWNhbnZhc2tpdC9mNjM0NGI3NWRjZjg2MWQ4YmYxZjEzMjI3ODBiODgxMWY5ODJlMzFhLw== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\CEO-FOUNER-HTS\Desktop\Flutter Game for Student\app\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CEO-FOUNER-HTS\DESKTOP\FLUTTER GAME FOR STUDENT\APP\BUILD\WINDOWS\X64\CMAKEFILES\5F21BEAA452911A36970DFBFA22B137C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\CEO-FOUNER-HTS\DESKTOP\FLUTTER GAME FOR STUDENT\APP\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/CEO-FOUNER-HTS/Desktop/Flutter Game for Student/app/windows" "-BC:/Users/CEO-FOUNER-HTS/Desktop/Flutter Game for Student/app/build/windows/x64" --check-stamp-file "C:/Users/CEO-FOUNER-HTS/Desktop/Flutter Game for Student/app/build/windows/x64/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
